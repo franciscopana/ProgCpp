@@ -50,10 +50,5 @@ size_t Stack<T>::size() const{
 }
 
 int main(){
-    Stack<string> s; string v;
-    s.push("a"); s.push("b"); s.push("c");
-    cout << s.size();
-    while(s.pop(v)) cout << ' ' << v;
-    cout << ' ' << s.size() << '\n';
     return 0;
 }

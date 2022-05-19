@@ -1,11 +1,12 @@
 #include <iostream>
+#include "p1.cpp"
+#include "p2.cpp"
+#include "p3.cpp"
+#include "p4.cpp"
 #include "p5.cpp"
 
-int main() {
-    smatrix r;
-    sum({ {0, 0, -1}, {0, 1, 2}, {5, 10, 20}, {10, 5, -20} },
-        { {0, 0, 1}, {0, 1, -2}, {10, 5, 20} },
-        r);
-    print(r);
+using namespace std;
+
+int main(){
     return 0;
 }

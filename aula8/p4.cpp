@@ -56,6 +56,5 @@ bool Date::is_valid() const{
 }
 
 int main(){
-    Date d1;
     return 0;
 }

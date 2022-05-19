@@ -40,14 +40,3 @@ bool anagrams(const char a[], const char b[], int& n){
     }
     return (n == 0) ? true : false;
 }
-
-int main(){
-    char a[] = "Z Plus Plus after Python";
-    char b[] = "zYTHON after p plus plus";
-    int n = -1;
-    bool r = anagrams(a, b, n);
-    cout << '\"' << a << '\"' << ' '
-        << '\"' << b << '\"' << ' '
-        << boolalpha << r << ' ' << n << '\n';
-    return 0;
-}

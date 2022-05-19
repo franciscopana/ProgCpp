@@ -53,11 +53,3 @@ node* reverse(const node* n){
     }
     return first;
 }
-
-int main(){
-    node* a = build(1, build(2, build(3, nullptr)));
-    node* b = reverse(a);
-    print(b); 
-    destroy(a); destroy(b);
-    return 0;
-}

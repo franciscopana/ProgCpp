@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void exercise1(){
     char c;
     cin >> c;
     if ('0' <= c && c <= '9'){

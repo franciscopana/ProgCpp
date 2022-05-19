@@ -44,8 +44,5 @@ void show(vector<Pair<T,V>> v){
 }
 
 int main(){
-    vector<Pair<string, int>> persons = { {"Maria",17},{"Ana",21},{"Pedro",19} };
-    sort_by_first(persons);
-    show(persons); cout << '\n';
     return 0;
 }

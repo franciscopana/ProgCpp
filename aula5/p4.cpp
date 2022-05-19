@@ -43,12 +43,3 @@ void mandel(complex c, int n, complex z[]){
         z[i] = sumc(mulc(z[i-1], z[i-1]), c);
     }
 }
-
-int main(){
-    complex c = { 1, 1 };
-    const int n = 3;
-    complex z[n];
-    mandel(c, n, z);
-    print(z, n);
-    return 0;
-}

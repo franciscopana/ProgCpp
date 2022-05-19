@@ -26,10 +26,3 @@ void remove_duplicates(int a[], int& size){
     }
     size = newsize;
 }
-
-int main(){
-    int a[] = { 1, 2, 3 };
-    int size = sizeof(a) / sizeof(int);
-    remove_duplicates(a, size);
-    print(a, size);
-}
