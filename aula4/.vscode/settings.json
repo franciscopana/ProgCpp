@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "__nullptr": "cpp",
+        "__config": "cpp",
+        "__node_handle": "cpp"
+    }
+}
