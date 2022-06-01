@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/fpana/Desktop/ProgCpp/aula10'
+g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g -lm -fsanitize=address -fsanitize=undefined  -o main
+make: Leaving directory `/Users/fpana/Desktop/ProgCpp/aula10'
+ 
