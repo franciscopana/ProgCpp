@@ -1,6 +1,4 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "files.associations": {
-        "iosfwd": "cpp"
-    }
+    "C_Cpp.errorSquiggles": "Disabled"
 }
