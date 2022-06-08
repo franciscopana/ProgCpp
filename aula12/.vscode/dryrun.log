@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+objc[2619]: Class AppleTypeCRetimerRestoreInfoHelper is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf458) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec04f8). One of the two will be used. Which one is undefined.
+objc[2619]: Class AppleTypeCRetimerFirmwareAggregateRequestCreator is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf4a8) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec0548). One of the two will be used. Which one is undefined.
+objc[2619]: Class AppleTypeCRetimerFirmwareRequestCreator is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf4f8) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec0598). One of the two will be used. Which one is undefined.
+objc[2619]: Class ATCRTRestoreInfoFTABFile is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf548) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec05e8). One of the two will be used. Which one is undefined.
+objc[2619]: Class AppleTypeCRetimerFirmwareCopier is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf598) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec0638). One of the two will be used. Which one is undefined.
+objc[2619]: Class ATCRTRestoreInfoFTABSubfile is implemented in both /usr/lib/libauthinstall.dylib (0x1f84bf5e8) and /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x107ec0688). One of the two will be used. Which one is undefined.
+
+make: Entering directory `/Users/fpana/Desktop/ProgCpp/aula12'
+g++ -std=c++11 -pedantic -Wall -Wuninitialized -Werror -g -lm -fsanitize=address -fsanitize=undefined  -o main
+make: Leaving directory `/Users/fpana/Desktop/ProgCpp/aula12'
+ 
