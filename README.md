@@ -1,3 +1,3 @@
 # ProgCpp
 
-This repo contains my resolutions of the practical exercises 
+A minha resolução dos exs de todas as aulas práticas de programação
