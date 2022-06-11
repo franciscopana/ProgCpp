@@ -10,15 +10,16 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Jun  8 11:15:52 2022
+# Make data base, printed on Thu Jun  9 10:55:35 2022
 
 # Variables
- 
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+# environment
+LC_CTYPE = UTF-8
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -31,6 +32,7 @@ VSCODE_LOG_NATIVE = false
 CURDIR := /Users/fpana/Desktop/ProgCpp/aula12
 # makefile
 SHELL = /bin/sh
+ 
 # makefile (from `Makefile', line 28)
 CPP_FILES = 
 # environment
@@ -50,9 +52,9 @@ INFOPATH = /opt/homebrew/share/info:
 # environment
 P9K_SSH = 0
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/sv/gxsvk5v96llb5jl5wq8sxllh0000gn/T/vscode-ipc-675fba9a-c4b2-4af7-a823-68a6f48cb8c1.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/sv/gxsvk5v96llb5jl5wq8sxllh0000gn/T/vscode-ipc-d8a88463-a03d-4d29-b369-2a1ea7bb5799.sock
 # environment
-VSCODE_CWD = /
+VSCODE_CWD = /Users/fpana/Desktop/ProgCpp/aula12
 # environment
 PATH = /opt/homebrew/opt/tcl-tk/bin:/opt/homebrew/opt/tcl-tk/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/fpana/FlutterDev/flutter/bin
 # makefile (from `Makefile', line 32)
@@ -86,7 +88,6 @@ HOME = /Users/fpana
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
- 
 VSCODE_CODE_CACHE_PATH = /Users/fpana/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = fpana
@@ -102,24 +103,32 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
 # environment
-SHLVL = 1
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 2
 # default
 MAKE_VERSION := 3.81
 # environment
 USER = fpana
 # makefile
 .DEFAULT_GOAL := main
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t0p0:B70D59B9-1416-4012-8886-343321968433
 # environment
 LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
@@ -135,7 +144,11 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.8011513.8011519
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.8011513.8011519.D835C126-8141-4063-AE21-03E70BA95679
+# environment
+LC_TERMINAL_VERSION = 3.4.15
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -143,7 +156,11 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +F = $(notdir $+)
 # environment
+ITERM_SESSION_ID = w0t0p0:B70D59B9-1416-4012-8886-343321968433
+# environment
 HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 7;0
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -152,25 +169,32 @@ COMMAND_MODE = unix2003
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
+# environment
+ITERM_PROFILE = francsicoana
 # makefile (from `Makefile', line 2)
 CXX = g++
 # environment
 PAGER = less
 # environment
 LC_ALL = C
+# environment
+P9K_TTY = old
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
 MAKELEVEL := 0
- 
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2467
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/ttys001
+# environment
+VSCODE_PID = 23671
 # variable set hash-table stats:
-# Load=76/1024=7%, Rehash=0, Collisions=1/110=1%
+# Load=89/1024=9%, Rehash=0, Collisions=4/123=3%
 
 # Pattern-specific Variable Values
 
@@ -178,9 +202,9 @@ VSCODE_PID = 2467
 
 # Directories
 
-# . (device 16777231, inode 8927440): 26 files, no impossibilities.
+# . (device 16777231, inode 8927440): 19 files, no impossibilities.
 
-# 26 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -239,6 +263,6 @@ main:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Jun  8 11:15:52 2022
+# Finished Make data base on Thu Jun  9 10:55:35 2022
 
  
