@@ -35,7 +35,3 @@ void HourlyEmployee::print_check() const {
   cout << get_name() <<':'<< fixed << setprecision(2) 
        << "HE(" << hours_ << ',' << wage_rate_ << ")=" <<  get_net_pay();
 }
-
-void HourlyEmployee::calculate_net_pay(){
-  set_net_pay(wage_rate_*hours_);
-}

@@ -27,7 +27,3 @@ void SalariedEmployee::print_check() const {
   cout << get_name() <<':' << fixed << setprecision(2) 
        << "SE(" << salary_ << ")="  << get_net_pay();
 }
-
-void SalariedEmployee::calculate_net_pay(){
-  set_net_pay(salary_);
-}

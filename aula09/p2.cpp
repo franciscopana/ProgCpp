@@ -17,3 +17,5 @@ void born_before(const vector<Person>& persons, const Date& date){
 int main(){
     return 0;
 }
+
+// make PROG=p2 CPP_FILES="Date.cpp Person.cpp p2.cpp" HEADERS="Date.h Person.h"
