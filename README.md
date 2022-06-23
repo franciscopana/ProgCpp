@@ -1,6 +1,6 @@
 # ProgCpp
 
-A minha resolução dos exs de todas as aulas práticas de programação
+*A minha resolução dos exs de todas as aulas práticas de programação*
 
 - Como IDE, usei VSCode, ativando a extensão do C++.
 - Com o terminal localizado no devido diretório de trabalho)
